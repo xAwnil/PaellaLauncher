@@ -91,17 +91,17 @@ class Home {
 
     async dynmapbtn() {
         document.querySelector('.dynmap').addEventListener('click', async() => {
-            require('electron').shell.openExternal("https://discord.gg/Nusw2CMkhy")
+            require('electron').shell.openExternal("https://discord.gg/")
         })}
 
     async instabtn() {
         document.querySelector('.insta').addEventListener('click', async() => {
-            require('electron').shell.openExternal("https://instagram.com/payasosland?igshid=YmMyMTA2M2Y=")
+            require('electron').shell.openExternal("https://instagram.com/")
         })}
 
     async integrantesbtn() {
         document.querySelector('.integrantes').addEventListener('click', async() => {
-            require('electron').shell.openExternal("no-definido")
+            require('electron').shell.openExternal("https://google.com/")
         })}
 
     async initLaunch() {

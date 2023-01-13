@@ -115,6 +115,19 @@
     margin-bottom: 10px;
 }
 
+.add-account:hover {
+    width: 80%;
+    height: 10%;
+    border: none;
+    border-radius: 15px;
+    font: normal normal bold 30px/40px Poppins;
+    color: #303030;
+    background-color: #d0d0d0;
+    box-shadow: 1px 2px 5px #d0d0d0;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
 .accounts {
     display: contents;
     justify-content: center;
@@ -174,6 +187,19 @@
     font-size: 50px;
     background: #353535c7;
     box-shadow: 0 0 5px #353535c7;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.account-delete:hover {
+    margin: -60px 415px;
+    color: #f73434;
+    font-size: 50px;
+    background: #ffec96;
+    box-shadow: 0 0 5px #ffec96;
     width: 65px;
     height: 65px;
     border-radius: 100%;

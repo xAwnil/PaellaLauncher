@@ -30,7 +30,7 @@ function addAccount(data) {
     div.classList.add("account");
     div.id = data.uuid;
     div.innerHTML = `
-        <img class="account-image" src="https://payasosland2.online/launcher/setver.png">
+        <img class="account-image" src="https://payasosland2.online/launchernp/setver.png">
         <div class="account-name">${data.name}</div>
         <div class="account-uuid">${data.uuid}</div>
         <div class="account-delete"><div class="icon-account-delete icon-account-delete-btn"></div></div>
@@ -49,5 +49,5 @@ function accountSelect(uuid) {
 }
 
 function headplayer(pseudo) {
-    document.querySelector(".player-head").style.backgroundImage = `url(https://payasosland2.online/launcher/setver.png)`;
+    document.querySelector(".player-head").style.backgroundImage = `url(https://payasosland2.online/launchernp/setver.png)`;
 }
